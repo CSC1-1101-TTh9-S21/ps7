@@ -94,8 +94,14 @@ import PySimpleGUI
 5. Now click one of the two buttons in the lower left corner. Here I've selected `Mirror`. It creates a mirror image of the original photo! Click it again, and it will return to the original image.
 
 6. Try the `Color Switch` button. You'll see that each time you click it, it changes the colors of the image. After three clicks, you get back to the original image.
+---
+
+## How does this work? [Click here to read a description](pixel.md). Then come back to this page to find out your assignment.
+
+---
 
 ## Step 4: Write the greyscale function
+To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide.
 
 ## Step 5: Write the black and white function
 
