@@ -111,7 +111,7 @@ To make an image greyscale, you simply take the average of all three RGB values 
 <img src="img/greyscaletiger.png" width=300>
 
 ## Step 5: Write the `monochrome()` function
-To make an image monochrome, take each pixel and sum all three components. If the sum exceeds some threshold, set all three components of the pixel to black, i.e., set the pixel to `[255, 255, 255]` for black. Otherwise, set all three components of the pixel to while, i.e., set the pixel to `[0,0,0]` for white. Use the `colorswitch()` function as a guide. Here's what my monochrome tiger looks like. You should try several thresholds and pick the one that looks the best.
+To make an image monochrome, take each pixel and sum all three components. If the sum exceeds some threshold, set all three components of the pixel to black, i.e., set the pixel to `[255, 255, 255]` for white. Otherwise, set all three components of the pixel to while, i.e., set the pixel to `[0,0,0]` for blac. Use the `colorswitch()` function as a guide. Here's what my monochrome tiger looks like. You should try several thresholds and pick the one that looks the best.
 
 <img src="img/monochrometiger.png" width=300>
 
