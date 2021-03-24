@@ -49,4 +49,4 @@ myimage = [ [ [255,255,  0], [255,255,0], [255,255,0]],
             [ [ 50,100,200], [255,255,0], [127,  0,0]]  ]
 ```
 
-Now that you know a little more about pixels and how they work, you can [go back to the problem set](README.md).
+Now that you know a little more about pixels and how they work, you can [go back to the problem set](https://github.com/CSC1-1101-TTh9-S21/ps7/blob/main/README.md#step-4-write-the-greyscale-function).
