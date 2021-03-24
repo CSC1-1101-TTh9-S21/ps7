@@ -23,7 +23,7 @@ You are going to do something you have not done before for this class: install n
 pip3 install PySimpleGUI
 ```
 
-3. If all goes well, you will see output like this. It's okay if you also see a `WARNING` about needing to update `pip`! As long as you don' see `ERROR`, it worked.
+3. If all goes well, you will see output like this. It's okay if you also see a `WARNING` about needing to update `pip`! As long as you don't see `ERROR`, it worked.
 
 <img src="img/pysimplegui.png" width=500>
 
@@ -96,6 +96,9 @@ import PySimpleGUI
 <img src="img/mirrortiger.png" width=500>
 
 6. Try the `Color Switch` button. You'll see that each time you click it, it changes the colors of the image. After three clicks, you get back to the original image.
+
+**This GUI is kind of buggy.** If you aren't able to actually close the window or if it isn't responding, quit IDLE. If that doesn't help, do a "force quit" on Python (e.g., in Activity Monitor on a Mac, Task Manager on Windows).
+
 ---
 
 ## How does this work? [Click here to read a description](pixel.md). Then look at the code for the two functions I have written for you. Then come back to this page to find out your assignment.
