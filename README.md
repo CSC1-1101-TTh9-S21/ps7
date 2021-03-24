@@ -87,7 +87,7 @@ import PySimpleGUI
 
 <img src="browse.png" width=500>
 
-4. Here I've selected `tiger.ppm`. Click the `Load` button next to the `Browse` button. The GUI should now look like this:
+4. Click the `Load` button next to the `Browse` button. If you select `tiger.ppm`, the GUI should now look like this:
 
 <img src="guiwithpic.png" width=500>
 
@@ -134,11 +134,14 @@ The upsidedown image would be this:
 <img src="upsidedowntiger.png" width=500>
 
 
+## Step 7 (Optional!): Write a `pixelate()` function.
+This is an optional exercise for people who want to have more "fun". To pixellate an image, divide the image into small square, e.g., 5 pixels by 5 pixels. Within each 5x5 square, set every R component to the average of all the R components in that square; set every G component to the average of all the G components in the square; set every B component to the average of all the B components in thst square.
 
 ---
 
 ## What to turn in
-You have 
+For this problem set, you downloaded this directory from GitHub, and you modified the `ps7.py` program I provided. Now just zip the folder back up and submit it to Canvas.
+
 **Don't forget your comments!**
 
-### This problem set is due Friday, March 19, 2021, at 11:59pm EST
+### This problem set is due Tuesday, March 30, 2021, at 11:59pm EST
