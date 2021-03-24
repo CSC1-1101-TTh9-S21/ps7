@@ -93,6 +93,8 @@ import PySimpleGUI
 
 5. Now click one of the two buttons in the lower left corner. Here I've selected `Mirror`. It creates a mirror image of the original photo! Click it again, and it will return to the original image.
 
+<img src="mirrortiger.png" width=300>
+
 6. Try the `Color Switch` button. You'll see that each time you click it, it changes the colors of the image. After three clicks, you get back to the original image.
 ---
 
@@ -103,12 +105,12 @@ import PySimpleGUI
 ## Step 4: Write the `greyscale()` function
 To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide. More details are provided in the comments in `ps7.py`. Here's what the greyscale tiger should look lie:
 
-<img src="greyscaletiger.png" width=500>
+<img src="greyscaletiger.png" width=300>
 
 ## Step 5: Write the `monochrome()` function
 To make an image monochrome, take each pixel and sum all three components. If the sum exceeds some threshold, set all three components of the pixel to black, i.e., set the pixel to `[255, 255, 255]` for black. Otherwise, set all three components of the pixel to while, i.e., set the pixel to `[0,0,0]` for white. Use the `colorswitch()` function as a guide. Here's what my monochrome tiger looks like. You should try several thresholds and pick the one that looks the best.
 
-<img src="monochrometiger.png" width=500>
+<img src="monochrometiger.png" width=300>
 
 
 ## Step 6: Write the `upsidedown()` function
@@ -131,7 +133,7 @@ The upsidedown image would be this:
    [  [1, 1, 1], [2, 2, 2], [3, 3, 3]  ]  ]
 ```
 
-<img src="upsidedowntiger.png" width=500>
+<img src="upsidedowntiger.png" width=300>
 
 
 ## Step 7 (Optional!): Write a `pixelate()` function.
