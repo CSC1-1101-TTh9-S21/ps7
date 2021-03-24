@@ -61,9 +61,7 @@ py -3 -m pip install PySimpleGUI
 
 5. Quit  `Command` and reopen it, and try typing one of the three commands above.
 
-6. If all goes well, you will see output like this. It's okay if you also see `WARNING`s! As long as you don't see `ERROR` or `Command not found`, it worked.
-
-<img src="pysimplegui.png" width=500>
+6. If all goes well, you will see output that says something like `Successfully installed!`. It's okay if you also see `WARNING`s! As long as you don't see `ERROR` or `Command not found`, it probably worked.
 
 7. Launch IDLE. At the prompt in IDLE type:
 
@@ -81,15 +79,21 @@ import PySimpleGUI
 <img src="github-download.png" width=500>
 
 
-If you are on a Mac or Linux, this should be easy.
 
-1. Launch a new Terminal. On a Mac, go to the magnifying glass in the upper right corner, and type `Terminal`. Then launch `Terminal.app`. If you have a Linux machine, do whatever is 
+## Step 3: Run the starter program
+1. In IDLE, open the file in the directory you just downloaded called `DIY_photoshop.py`. 
+2. Run the program. 
+3. You should see a very primitive-looking graphical user iterface (GUI), like this. Where indicated in the picture below, click `Browse`, and then select one of the `ppm` image files in this directory. 
 
+<img src="browse.png" width=500>
 
+4. Here I've selected `tiger.ppm`. Click the `Load` button next to the `Browse` button. The GUI should now look like this:
 
-## Step 3: Run the basic program
-In IDLE, open the file in the directory you just downloaded called `DIY_photoshop.py`. There is a lot of 
+<img src="guiwithpic.png" width=500>
 
+5. Now click one of the two buttons in the lower left corner. Here I've selected `Mirror`. It creates a mirror image of the original photo! Click it again, and it will return to the original image.
+
+6. Try the `Color Switch` button. You'll see that each time you click it, it changes the colors of the image. After three clicks, you get back to the original image.
 
 ## Step 4: Write the greyscale function
 
