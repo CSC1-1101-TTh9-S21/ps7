@@ -145,7 +145,7 @@ This is an optional exercise for people who want to have more "fun". To pixellat
 ---
 ## Trying other images
 
-You've probably noticed that the images are in a weird format: `.ppm`. There are all kinds of online converters that will turn your jpegs into PPM format. You can give those a try if you'd like to apply these filters to your own photos.
+You've probably noticed that the images are in a weird format: `.ppm`. There are all kinds of online converters that will turn your jpegs into PPM format. You can give those a try if you'd like to apply these filters to your own photos. In addition, on Mac, you can use a [hidden export option in Preview](https://www.techjunkie.com/os-x-preview-export-image-formats/) to convert from jpeg to PPM.
 
 ---
 
