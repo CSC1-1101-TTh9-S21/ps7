@@ -2,9 +2,9 @@
 
 ### Due Tuesday, March 30, 2021, at 11:59pm EST
 
-For this problem set, you will submit to Canvas **a single .zip file**. Detailed instructions for what the .zip file should contain are at the end of this problem set. Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
+For this problem set, you will download this directory, modify the `ps7.py` program, then zip the folder back up and submit it to Canvas. Note that if you do not submit as specified, there will be a  deduction in your grade for this assignment.
 
-As in Problem Set 7, I will give you starter code and you will just have to write a few functions, as described below.
+As in Problem Set 7, I have given you starter code, and you will just have to write a few functions, as described below.
 
 **Comments:** Two points will be deducted if you provide no or minimal comments, and 1 point will be deducted if you have sufficient comments but they do not conform to the requirements previously outlined.
 
@@ -81,9 +81,9 @@ import PySimpleGUI
 
 
 ## Step 3: Run the starter program
-1. In IDLE, open the file in the directory you just downloaded called `DIY_photoshop.py`. 
+1. In IDLE, open the file in the directory you just downloaded called `ps7.py`. 
 2. Run the program. 
-3. You should see a very primitive-looking graphical user iterface (GUI), like this. Where indicated in the picture below, click `Browse`, and then select one of the `ppm` image files in this directory. 
+3. You should see a very primitive-looking graphical user iterface (GUI), like this. (There is a lot of code in the `ps7.py` file that manages how this GUI works, together with the various modules that are imported. You won't be modifying that code.) Where indicated in the picture below, click `Browse`, and then select one of the `ppm` image files in this directory. 
 
 <img src="browse.png" width=500>
 
@@ -96,18 +96,42 @@ import PySimpleGUI
 6. Try the `Color Switch` button. You'll see that each time you click it, it changes the colors of the image. After three clicks, you get back to the original image.
 ---
 
-## How does this work? [Click here to read a description](pixel.md). Then come back to this page to find out your assignment.
+## How does this work? [Click here to read a description](pixel.md). Then look at the code for the two functions I have written for you. Then come back to this page to find out your assignment.
 
 ---
 
 ## Step 4: Write the `greyscale()` function
-To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide.
+To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide. More details are provided in the comments in `ps7.py`. Here's what the greyscale tiger should look lie:
+
+<img src="greyscaletiger.png" width=500>
 
 ## Step 5: Write the `monochrome()` function
+To make an image monochrome, take each pixel and sum all three components. If the sum exceeds some threshold, set all three components of the pixel to black, i.e., set the pixel to `[255, 255, 255]` for black. Otherwise, set all three components of the pixel to while, i.e., set the pixel to `[0,0,0]` for white. Use the `colorswitch()` function as a guide. Here's what my monochrome tiger looks like. You should try several thresholds and pick the one that looks the best.
+
+<img src="monochrometiger.png" width=500>
+
 
 ## Step 6: Write the `upsidedown()` function
+This time use the mirror function as a guide, but instead of swapping pixels across an imaginary vertical line through the middle, swap them across an imaginary horizontal line through the middle. If this was your input image here:
 
+```
+[ [  [1, 1, 1], [2, 2, 2], [3, 3, 3]  ],
+  [  [4, 4, 4], [5, 5, 5], [6, 6, 6]  ],
+  [  [7, 7, 7], [8, 8, 8], [9, 9, 9]  ],
+  [  [0, 0, 0], [0, 0, 0], [0, 0, 0]  ]  ]
 
+```
+
+The upsidedown image would be this:
+
+```
+[  [  [0, 0, 0], [0, 0, 0], [0, 0, 0]  ],
+   [  [7, 7, 7], [8, 8, 8], [9, 9, 9]  ],
+   [  [4, 4, 4], [5, 5, 5], [6, 6, 6]  ],
+   [  [1, 1, 1], [2, 2, 2], [3, 3, 3]  ]  ]
+```
+
+<img src="upsidedowntiger.png" width=500>
 
 
 
