@@ -25,7 +25,7 @@ pip3 install PySimpleGUI
 
 3. If all goes well, you will see output like this. It's okay if you also see a `WARNING` about needing to update `pip`! As long as you don' see `ERROR`, it worked.
 
-<img src="pysimplegui.png" width=500>
+<img src="img/pysimplegui.png" width=500>
 
 4. Launch IDLE. At the prompt in IDLE type:
 
@@ -76,7 +76,7 @@ import PySimpleGUI
 ## Step 2: Get the files
 **Download this folder to your computer!** All the work you will do will be in the downloaded version of this folder. When you're done, you will zip up the folder you downloaded and submit it on Canvas. As a reminder, to download a folder from GitHub, click on the green `Code` button, then select `Download Zip`.
 
-<img src="github-download.png" width=500>
+<img src="img/github-download.png" width=500>
 
 
 
@@ -85,15 +85,15 @@ import PySimpleGUI
 2. Run the program. 
 3. You should see a very primitive-looking graphical user iterface (GUI), like this. (There is a lot of code in the `ps7.py` file that manages how this GUI works, together with the various modules that are imported. You won't be modifying that code.) Where indicated in the picture below, click `Browse`, and then select one of the `ppm` image files in this directory. 
 
-<img src="browse.png" width=500>
+<img src="img/browse.png" width=500>
 
 4. Click the `Load` button next to the `Browse` button. If you select `tiger.ppm`, the GUI should now look like this:
 
-<img src="guiwithpic.png" width=500>
+<img src="img/guiwithpic.png" width=500>
 
 5. Now click one of the two buttons in the lower left corner. Here I've selected `Mirror`. It creates a mirror image of the original photo! Click it again, and it will return to the original image.
 
-<img src="mirrortiger.png" width=300>
+<img src="img/mirrortiger.png" width=300>
 
 6. Try the `Color Switch` button. You'll see that each time you click it, it changes the colors of the image. After three clicks, you get back to the original image.
 ---
@@ -105,12 +105,12 @@ import PySimpleGUI
 ## Step 4: Write the `greyscale()` function
 To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide. More details are provided in the comments in `ps7.py`. Here's what the greyscale tiger should look lie:
 
-<img src="greyscaletiger.png" width=300>
+<img src="img/greyscaletiger.png" width=300>
 
 ## Step 5: Write the `monochrome()` function
 To make an image monochrome, take each pixel and sum all three components. If the sum exceeds some threshold, set all three components of the pixel to black, i.e., set the pixel to `[255, 255, 255]` for black. Otherwise, set all three components of the pixel to while, i.e., set the pixel to `[0,0,0]` for white. Use the `colorswitch()` function as a guide. Here's what my monochrome tiger looks like. You should try several thresholds and pick the one that looks the best.
 
-<img src="monochrometiger.png" width=300>
+<img src="img/monochrometiger.png" width=300>
 
 
 ## Step 6: Write the `upsidedown()` function
@@ -133,7 +133,7 @@ The upsidedown image would be this:
    [  [1, 1, 1], [2, 2, 2], [3, 3, 3]  ]  ]
 ```
 
-<img src="upsidedowntiger.png" width=300>
+<img src="img/upsidedowntiger.png" width=300>
 
 
 ## Step 7 (Optional!): Write a `pixelate()` function.
