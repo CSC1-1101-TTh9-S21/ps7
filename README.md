@@ -93,7 +93,7 @@ import PySimpleGUI
 
 5. Now click one of the two buttons in the lower left corner. Here I've selected `Mirror`. It creates a mirror image of the original photo! Click it again, and it will return to the original image.
 
-<img src="img/mirrortiger.png" width=500>
+<img src="img/mirrortiger.png" width=300>
 
 6. Try the `Color Switch` button. You'll see that each time you click it, it changes the colors of the image. After three clicks, you get back to the original image.
 
