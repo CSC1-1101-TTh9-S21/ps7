@@ -140,6 +140,11 @@ The upsidedown image would be this:
 This is an optional exercise for people who want to have more "fun". To pixellate an image, divide the image into small square, e.g., 5 pixels by 5 pixels. Within each 5x5 square, set every R component to the average of all the R components in that square; set every G component to the average of all the G components in the square; set every B component to the average of all the B components in thst square.
 
 ---
+## Trying other images
+
+You've probably noticed that the images are in a weird format: `.ppm`. There are all kinds of online converters that will turn your jpegs into PPM format. You can give those a try if you'd like to apply these filters to your own photos.
+
+---
 
 ## What to turn in
 For this problem set, you downloaded this directory from GitHub, and you modified the `ps7.py` program I provided. Now just zip the folder back up and submit it to Canvas.
