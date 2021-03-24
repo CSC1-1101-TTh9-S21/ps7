@@ -16,7 +16,7 @@ You are going to do something you have not done before for this class: install n
 
 ### Mac
 
-1. On a Mac, go to the magnifying glass in the upper right corner and type `Terminal`. Then launch the Terminal app that it finds for you.
+1. On a Mac, use Spotlight Search (i.e., the magnifying glass that's usually in the upper right corner) and type `Terminal`. Then launch the Terminal app that it finds for you.
 2. A boring plain text window will open. At the prompt, type:
 
 ```
@@ -33,7 +33,7 @@ pip3 install PySimpleGUI
 import PySimpleGUI
 ```
 
-5. If you get no ouput at all, you are good to go! If you get `ModuleNotFoundError: No module named PySimpleGUI`, check to make sure that you didn't type something incorrectly. You can even just copy and paste what I have above to be sure. If you still get an error, see me.
+5. If you get no ouput at all, you are good to go! If you get `ModuleNotFoundError: No module named PySimpleGUI` or something along those lines with the word "error", check to make sure that you didn't type something incorrectly. You can even just copy and paste what I have above to be sure. If you still get an error, see me (if you're in class or can come to office hours) or post on Slack.
 
 ### Windows
 
@@ -69,19 +69,19 @@ py -3 -m pip install PySimpleGUI
 import PySimpleGUI
 ```
 
-8. If you get no ouput at all, you are good to go! If you get `ModuleNotFoundError: No module named PySimpleGUI`, check to make sure that you didn't type something incorrectly. You can even just copy and paste what I have above to be sure. If you still get an error, see me.
+8. If you get no ouput at all, you are good to go! If you get `ModuleNotFoundError: No module named PySimpleGUI` or something along those lines with the word "error", check to make sure that you didn't type something incorrectly. You can even just copy and paste what I have above to be sure. If you still get an error, see me (if you're in class or can come to office hours) or post on Slack.
 
 
 
 ## Step 2: Get the files
-**Download this folder to your computer!** All the work you will do will be in the downloaded version of this folder. When you're done, you will zip up the folder you downloaded and submit it on Canvas. As a reminder, to download a folder from GitHub, click on the green `Code` button, then select `Download Zip`.
+**Download this folder to your computer and unzip it!** All the work you will do will take place in the downloaded version of this folder. When you're done, you will zip back up the folder you downloaded and submit it on Canvas. As a reminder, to download a folder from GitHub, click on the green `Code` button, then select `Download Zip`. And then of course, unzip it to see what's inside.
 
 <img src="img/github-download.png" width=500>
 
 
 
 ## Step 3: Run the starter program
-1. In IDLE, open the file in the directory you just downloaded called `ps7.py`. 
+1. In IDLE, open the file in the directory you just downloaded called `ps7.py`. (Don't open the other `.py` file!)
 2. Run the program. 
 3. You should see a very primitive-looking graphical user iterface (GUI), like this. (There is a lot of code in the `ps7.py` file that manages how this GUI works, together with the various modules that are imported. You won't be modifying that code.) Where indicated in the picture below, click `Browse`, and then select one of the `ppm` image files in this directory. 
 
