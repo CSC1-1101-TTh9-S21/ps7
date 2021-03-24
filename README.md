@@ -100,12 +100,12 @@ import PySimpleGUI
 
 ---
 
-## Step 4: Write the greyscale function
+## Step 4: Write the `greyscale()` function
 To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide.
 
-## Step 5: Write the black and white function
+## Step 5: Write the `monochrome()` function
 
-## Step 6: Write the pixellate function
+## Step 6: Write the `upsidedown()` function
 
 
 
