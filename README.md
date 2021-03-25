@@ -4,7 +4,7 @@
 
 For this problem set, you will download this directory, modify the `ps7.py` program, then zip the folder back up and submit it to Canvas. Note that if you do not submit as specified, there will be a  deduction in your grade for this assignment.
 
-As in Problem Set 7, I have given you starter code, and you will just have to write a few functions, as described below.
+As in Problem Set 6, I have given you starter code, and you will just have to write a few functions, as described below.
 
 **Comments:** Two points will be deducted if you provide no or minimal comments, and 1 point will be deducted if you have sufficient comments but they do not conform to the requirements previously outlined.
 
