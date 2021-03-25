@@ -106,12 +106,12 @@ import PySimpleGUI
 ---
 
 ## Step 4: Write the `greyscale()` function
-To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide. More details are provided in the comments in `ps7.py`. Here's what the greyscale tiger should look like:
+To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide. More details are provided in the comments in `ps7.py`. Don't forget to add your new button to the dictionary `effects`. Here's what the greyscale tiger should look like:
 
 <img src="img/greyscaletiger.png" width=300>
 
 ## Step 5: Write the `monochrome()` function
-To make an image monochrome, take each pixel and sum all three components. If the sum exceeds some threshold, set all three components of the pixel to white (i.e., `[255, 255, 255]`). Otherwise, set all three components of the pixel to black (i.e. `[0,0,0]`). Use the `colorswitch()` function as a guide. Here's what my monochrome tiger looks like. You should try several thresholds and pick the one that looks the best.
+To make an image monochrome, take each pixel and sum all three components. If the sum exceeds some threshold, set all three components of the pixel to white (i.e., `[255, 255, 255]`). Otherwise, set all three components of the pixel to black (i.e. `[0,0,0]`). Use the `colorswitch()` function as a guide. Don't forget to add your new button to the dictionary `effects`. Here's what my monochrome tiger looks like. You should try several thresholds and pick the one that looks the best.
 
 <img src="img/monochrometiger.png" width=300>
 
@@ -137,6 +137,8 @@ The upsidedown image would be this:
 ```
 
 <img src="img/upsidedowntiger.png" width=300>
+
+Don't forget to add your new button to the dictionary `effects`.
 
 
 ## Step 7 (Optional!): Write a `pixelate()` function.
