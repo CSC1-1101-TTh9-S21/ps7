@@ -101,12 +101,12 @@ import PySimpleGUI
 
 ---
 
-## How does this work? [Click here to read a description](pixel.md). Then look at the code for the two functions I have written for you. Then come back to this page to find out your assignment.
+## How does this work? [Click here to read a description](pixel.md). Then look at the code in `ps7.py` for the two functions I have written for you. You will also see that there are four functions that haven't been written yet. Your job is to write the first them! After you look at the code of `ps7.py`, come back to this page to find out your assignment.
 
 ---
 
 ## Step 4: Write the `greyscale()` function
-To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide. More details are provided in the comments in `ps7.py`. Here's what the greyscale tiger should look lie:
+To make an image greyscale, you simply take the average of all three RGB values at each pixel. Use the `colorswitch()` function I've provided as a guide. More details are provided in the comments in `ps7.py`. Here's what the greyscale tiger should look like:
 
 <img src="img/greyscaletiger.png" width=300>
 
