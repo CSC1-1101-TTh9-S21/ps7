@@ -33,7 +33,13 @@ pip3 install PySimpleGUI
 import PySimpleGUI
 ```
 
-5. If you get no ouput at all, you are good to go! If you get `ModuleNotFoundError: No module named PySimpleGUI` or something along those lines with the word "error", check to make sure that you didn't type something incorrectly. You can even just copy and paste what I have above to be sure. If you still get an error, see me (if you're in class or can come to office hours) or post on Slack.
+5. If you get no ouput at all, you are good to go! If you get `ModuleNotFoundError: No module named PySimpleGUI` or something along those lines with the word "error", check to make sure that you didn't type something incorrectly. You can even just copy and paste what I have above to be sure. If you still get an error, try typing this in the Terminal:
+
+```
+/Library/Frameworks/Python.framework/Versions/3.9/bin/pip3 install PySimpleGUI
+```
+
+7. And if that still fails, email me, come to office hours, or post on Slack.
 
 ### Windows
 
